@@ -1,4 +1,4 @@
-/********** Template CSS **********/
+/********** CSS **********/
 :root {
     --primary: #061E75FF;
     --secondary: #0DD3F1;
@@ -194,7 +194,7 @@
 }
 
 .page-header {
-    background: url(../img/carousel-1.jpg) center center no-repeat;
+    background: url(../img/resource/Website_Cover/3.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -215,7 +215,7 @@
 
 /*** Facts ***/
 .facts {
-    background: linear-gradient(rgba(53, 94, 252, .95), rgb(6, 30, 117)), url(../img/resource/images/digital-technology-background-with-hexagon-frame-white-tone_53876-117507.webp);
+    background: linear-gradient(rgba(53, 94, 252, .95), rgb(6, 30, 117));
 }
 
 
@@ -272,9 +272,53 @@
 /*}*/
 
 
+.service-item .service-text {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .06);
+    transition: .5s;
+    z-index: 2;
+}
+
+.service-item:hover .service-text {
+    top: -1.5rem;
+}
+
+.service-item .service-text h5 {
+    transition: .5s;
+}
+
+.service-item:hover .service-text h5 {
+    color: var(--primary);
+}
+
+.service-item .service-btn {
+    position: absolute;
+    width: 80%;
+    height: 3rem;
+    left: 10%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+    transition: .5s;
+    z-index: 1;
+}
+
+.service-item:hover .service-btn {
+    bottom: -1.5rem;
+}
+/*** Service ***/
+
 /*** Appointment ***/
 .appointment {
-    background: linear-gradient(rgba(1, 95, 201, .9), rgb(6, 30, 117)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(1, 95, 201, .9), rgb(6, 30, 117)) ;
     background-size: cover;
 }
 
