@@ -5,6 +5,15 @@
     --light: #F6F7FC;
     --dark: #15233C;
 }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+h1, h2, h3, h4, h5, h6,p {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+.text-lightBlue{
+    color: #015FC9 !important;
+}
 .bg-primary{
     background-color: #061E75FF !important;
 }
