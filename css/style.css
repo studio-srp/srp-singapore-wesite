@@ -218,7 +218,7 @@
 
 /*** Facts ***/
 .facts {
-    background: linear-gradient(rgba(53, 94, 252, .95), rgb(6, 30, 117));
+    background: var(--primary);
 }
 
 
@@ -227,6 +227,10 @@
 
 
 /*** Service ***/
+.service-box{
+    background-color: #0d6efd;
+    min-height: 300px !important;
+}
 .service .nav .nav-link {
     transition: .5s;
 }
@@ -321,7 +325,7 @@
 
 /*** Appointment ***/
 .appointment {
-    background: linear-gradient(rgba(1, 95, 201, .9), rgb(6, 30, 117)) ;
+    background:  var(--primary);
     background-size: cover;
 }
 
