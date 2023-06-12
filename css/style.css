@@ -32,7 +32,12 @@ h1, h2, h3, h4, h5, h6,p {
     bottom: 30px;
     z-index: 99;
 }
-
+.lh-2{
+    line-height: 1.1;
+}
+.lh-p{
+    line-height: 1.6;
+}
 
 /*** Spinner ***/
 #spinner {
