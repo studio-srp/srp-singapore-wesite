@@ -172,6 +172,7 @@ h1, h2, h3, h4, h5, h6,p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .carousel-caption {
     top: 0;
@@ -358,7 +359,7 @@ h1, h2, h3, h4, h5, h6,p {
     box-shadow: 0 0 45px rgba(0, 0, 0, .07);
 }
 .team-card{
-    height: 375px!important;
+    /*height: 375px!important;*/
 }
 .team-item img {
     transition: .5s;
