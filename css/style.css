@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .text-lightBlue {
-    color: #015FC9 !important;
+    color: var(--primary); !important;
 }
 
 .bg-primary {
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6, p {
 /*** Header ***/
 
 .bg-cover {
-    background: linear-gradient(79deg, rgba(255, 255, 255, 0.97) 10%, rgba(213, 217, 231, 0.92) 55%, rgba(196, 204, 227, 0.06) 80%), url("../img/resource/Singapore/cityscape-singapore-city-skyline.jpg");
+    background: linear-gradient(79deg, rgba(255, 255, 255, 0.97) 10%, rgba(213, 217, 231, 0.92) 55%, rgba(231, 232, 236, 0.06) 80%), url("../img/resource/Singapore/cityscape-singapore-city-skyline.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -231,7 +231,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .page-header {
-    background: linear-gradient(79deg, rgb(255, 255, 255) 10%, rgba(215, 221, 232, 0.84) 55%, rgba(168, 186, 231, 0.11) 100%), url("../img/resource/Singapore/singapore-view-waterfront-urban-architecture-min.jpg") center center no-repeat;
+    background: linear-gradient(79deg, rgb(255, 255, 255) 10%, rgba(215, 221, 232, 0.84) 55%, rgba(168, 186, 231, 0.11) 100%), url("../img/resource/Singapore/pexels-robert-stokoe-717637 (1).jpg") center center no-repeat;
     background-size: cover;
     background-position: center center;
 }
