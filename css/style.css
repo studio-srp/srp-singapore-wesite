@@ -317,14 +317,49 @@ h1, h2, h3, h4, h5, h6,p {
     transition: .5s;
     z-index: 2;
 }
-
+.b2b-img-2{
+    display: none;
+}
 .service-item:hover .service-text {
     top: -1.5rem;
+    background: rgb(7,30,117);
+    color: white !important;
 }
-
+.service-item:hover .b2b-text-1 {
+    color: white !important;
+}
+.service-item:hover .b2b-text-2 {
+    color: white !important;
+}
+.service-item:hover .b2b-img-1{
+    display: none;
+}
+.service-item:hover .b2b-img-2{
+    display: unset;
+}
 .service-item .service-text h5 {
     transition: .5s;
 }
+.b2c-img-2{
+    display: none;
+}
+.service-item:hover .b2c-text-1 {
+    color: white !important;
+}
+.service-item:hover .b2c-text-2 {
+    color: white !important;
+}
+.service-item:hover .b2c-img-1{
+    display: none;
+}
+.service-item:hover .b2c-img-2{
+    display: unset;
+}
+.service-item .service-text h5 {
+    transition: .5s;
+}
+
+
 
 .service-item:hover .service-text h5 {
     color: var(--primary);
