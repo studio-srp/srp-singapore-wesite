@@ -45,6 +45,70 @@ h1, h2, h3, h4, h5, h6, p {
 .lh-p {
     line-height: 1.6;
 }
+.bg-cover-1{
+    background: linear-gradient(79deg, rgba(255, 255, 255, 0.97) 10%, rgba(213, 217, 231, 0.92) 55%, rgba(231, 232, 236, 0.06) 80%), url("../img/resource/Singapore/sg-1.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-cover-2{
+    background: linear-gradient(79deg, rgba(255, 255, 255, 0.97) 10%, rgba(213, 217, 231, 0.92) 55%, rgba(231, 232, 236, 0.06) 80%), url("../img/resource/Singapore/sg-2.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-cover-3{
+    background: linear-gradient(79deg, rgba(255, 255, 255, 0.97) 10%, rgba(213, 217, 231, 0.92) 55%, rgba(231, 232, 236, 0.06) 80%), url("../img/resource/Singapore/sg-3.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-cover-4{
+    background: linear-gradient(79deg, rgba(255, 255, 255, 0.97) 10%, rgba(213, 217, 231, 0.92) 55%, rgba(231, 232, 236, 0.06) 80%), url("../img/resource/Singapore/sg-4.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-cover-5{
+    background: linear-gradient(79deg, rgba(255, 255, 255, 0.97) 10%, rgba(213, 217, 231, 0.92) 55%, rgba(231, 232, 236, 0.06) 80%), url("../img/resource/Singapore/singapore-city-min.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-cover-6{
+    background: linear-gradient(79deg, rgba(255, 255, 255, 0.97) 10%, rgba(213, 217, 231, 0.92) 55%, rgba(231, 232, 236, 0.06) 80%), url("../img/resource/Singapore/singapore-2706849_1280.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-cover-7{
+    background: linear-gradient(79deg, rgba(255, 255, 255, 0.97) 10%, rgba(213, 217, 231, 0.92) 55%, rgba(231, 232, 236, 0.06) 80%), url("../img/resource/Singapore/singapore-1927719_1280.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-cover-8{
+    background: linear-gradient(79deg, rgba(255, 255, 255, 0.97) 10%, rgba(213, 217, 231, 0.92) 55%, rgba(231, 232, 236, 0.06) 80%), url("../img/resource/Singapore/helix-bridge-with-marina-bay-building-min.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-cover-9{
+    background: linear-gradient(79deg, rgba(255, 255, 255, 0.97) 10%, rgba(213, 217, 231, 0.92) 55%, rgba(231, 232, 236, 0.06) 80%), url("../img/resource/Singapore/amazing-shot-gardens-by-bay-singapore.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 /*** Spinner ***/
 #spinner {
@@ -231,9 +295,11 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .page-header {
-    background: linear-gradient(79deg, rgb(255, 255, 255) 10%, rgba(215, 221, 232, 0.84) 55%, rgba(168, 186, 231, 0.11) 100%), url("../img/resource/Singapore/pexels-robert-stokoe-717637 (1).jpg") center center no-repeat;
+    background: linear-gradient(79deg, rgb(255, 255, 255) 10%, rgba(215, 221, 232, 0.84) 55%, rgba(168, 186, 231, 0.11) 100%), url("../img/resource/Singapore/pexels-robert-stokoe-717637 (1).jpg") ;
+    background-position: bottom;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-attachment: fixed;
 }
 
 .page-header .breadcrumb-item,
