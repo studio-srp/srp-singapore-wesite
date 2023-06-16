@@ -53,8 +53,8 @@ h1, h2, h3, h4, h5, h6, p {
     background-attachment: fixed;
 }
 .bg-cover-2{
-    background: linear-gradient(79deg, rgba(255, 255, 255, 0.97) 10%, rgba(213, 217, 231, 0.92) 55%, rgba(231, 232, 236, 0.06) 80%), url("../img/resource/Singapore/sg-2.jpg");
-    background-position: bottom;
+    background: linear-gradient(79deg, rgba(255, 255, 255, 0.97) 10%, rgba(213, 217, 231, 0.92) 55%, rgba(231, 232, 236, 0.06) 80%), url("../img/resource/Singapore/jay-ang-v0BgDZTJyPY-unsplash-min.jpg");
+    background-position: bottom left;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -248,13 +248,23 @@ h1, h2, h3, h4, h5, h6, p {
 /*** Header ***/
 
 .bg-cover {
-    background: linear-gradient(79deg, rgba(255, 255, 255, 0.97) 10%, rgba(213, 217, 231, 0.92) 55%, rgba(231, 232, 236, 0.06) 80%), url("../img/resource/Singapore/cityscape-singapore-city-skyline.jpg");
+    background: linear-gradient(79deg, rgba(255, 255, 255, 0.97) 10%, rgba(213, 217, 231, 0.92) 40%, rgba(231, 232, 236, 0.06) 60%), url("../img/resource/Singapore/cityscape-singapore-city-skyline.jpg");
+    /*background: linear-gradient(79deg, rgba(255, 255, 255, 0.94) 10%, rgba(213, 217, 231, 0.92) 55%, rgba(231, 232, 236, 0.06) 80%), url("../img/resource/Singapore/anh-hoang-hhulunZcjww-unsplash (1)-min.jpg");*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
+@media (max-width: 768px) {
+    .bg-cover {
+        background: linear-gradient(79deg, rgba(255, 255, 255, 0.97) 10%, rgba(213, 217, 231, 0.7) 80%, rgba(246, 246, 248, 0.06) 90%), url("../img/resource/Singapore/cityscape-singapore-city-skyline.jpg");
+        background-position: center right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
 .carousel-caption {
     top: 0;
     left: 0;
